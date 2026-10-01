@@ -15,7 +15,7 @@
   ·
   <a href="https://github.com/oradevs/netlify-manager/issues/new/choose">Request a feature</a>
   ·
-  <a href="https://oradevs.github.io/netlify-manager/">Website</a>
+  <a href="https://oradevs.com/">Website</a>
 </p>
 
 <p align="center">

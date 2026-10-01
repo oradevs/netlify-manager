@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Leave a review on Google Play
+    url: https://play.google.com/store/apps/details?id=com.oradevs.netlify_manager
+    about: Enjoying the app? A rating helps other developers find it.
+  - name: Netlify platform problem
+    url: https://answers.netlify.com/
+    about: Issues with Netlify itself (builds, DNS, billing) belong with Netlify support, not this app.

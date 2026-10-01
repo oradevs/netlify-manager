@@ -1,0 +1,78 @@
+name: Bug report
+description: Something in Netlify Manager is broken or behaves unexpectedly
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+        **Do not include your Personal Access Token, build hook URLs or environment variable values.** Blur them in screenshots.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what did the app do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a site
+        2. Go to Deploys
+        3. Tap ...
+    validations:
+      required: true
+  - type: dropdown
+    id: screen
+    attributes:
+      label: Where in the app?
+      options:
+        - Sign in
+        - My Sites
+        - Dashboard
+        - Overview
+        - Deploys
+        - Environment Variables
+        - Forms
+        - Hooks
+        - Snippets
+        - Settings / Pro purchase
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown at the bottom of Settings
+      placeholder: "3.7.4"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: "Pixel 8, Android 15"
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - Free
+        - Pro
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Optional. Blur anything private.

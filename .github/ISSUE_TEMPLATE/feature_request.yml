@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest something Netlify Manager should do
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing requests first and add a 👍 if yours is already there. Votes help us prioritise.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation where the app falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like the app to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Sites
+        - Deploys
+        - Environment Variables
+        - Forms
+        - Hooks and notifications
+        - Snippets
+        - Account and settings
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this today?
+      description: Optional. For example, the Netlify web dashboard or CLI.

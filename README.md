@@ -109,7 +109,7 @@ No. Netlify Manager is an independent, third-party client built on the public Ne
 Only on your device, in encrypted storage. It is sent only to Netlify's API. You can remove it at any time with **Logout** in Settings, and revoke it from your Netlify account.
 
 **Does the app collect data?**
-The app has no backend of its own and does not upload your sites or token to us. It does include ad and analytics SDKs (Google AdMob, Meta Audience Network, Firebase Analytics). See the [privacy policy](https://oradevs.github.io/netlify-manager/privacy-policy.html) for details.
+The app has no backend of its own and does not upload your sites or token to us. It does include ad and analytics SDKs (Google AdMob, Meta Audience Network, Firebase Analytics). See the [privacy policy](https://policies.oradevs.com/netlify/privacy-policy.html) for details.
 
 **Can I deploy by uploading a ZIP?**
 Not at the moment.
@@ -136,7 +136,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Privacy
 
-See the [privacy policy](https://oradevs.github.io/netlify-manager/privacy-policy.html).
+See the [privacy policy](https://policies.oradevs.com/netlify/privacy-policy.html).
 
 ---
 
